@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+/* img{
+    width: 100%;
+} */
+.icons {
+    width: 15px;
+    height: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card {
+    background: #bec7d8;
+    width: 500px;
+    height: fit-content;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.form-card .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form-card .email-input,
+.form-card .password-input,
+.form-card .full-name {
+    display: flex;
+    padding: 5px;
+    border: 1px solid #78838d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type='password'],
+input[type='email'],
+input[type='text'] {
+    width: 100%;
+    padding-left: 5px;
+    background: transparent;
+    outline: none;
+    border: none;
+    
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+button.btn-signin {
+    background-color: #0275d8;
+    height: 35px;
+    color: honeydew;
+    width: 100%;
+}
+
+form p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.google {
+    width: 20px;
+    /* height: 5px; */
+    margin-right: 5px;
+
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    height: 25px;
+    padding: 20px 0;
+    background-color:rgb(238, 228, 228);
+}
+
+.signup-txt{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.login-txt{
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
