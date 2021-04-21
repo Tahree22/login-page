@@ -9,6 +9,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: black;
+    background-color: #c1def8;
 }
 
 h3{
@@ -19,8 +20,8 @@ h3{
     width: 100%;
 } */
 .icons {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
 }
 
 .container {
@@ -36,7 +37,7 @@ main {
 }
 
 .form-card {
-    background: #bec7d8;
+    background: #fff;
     width: 500px;
     height: fit-content;
     padding-top: 20px;
@@ -55,7 +56,7 @@ main {
 .form-card .full-name {
     display: flex;
     padding: 5px;
-    border: 1px solid #78838d;
+    border: 1px solid #cdd8e2;
     border-radius: 5px;
     margin-bottom: 10px;
 }
