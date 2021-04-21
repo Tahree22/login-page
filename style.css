@@ -22,6 +22,7 @@ h3{
 .icons {
     width: 12px;
     height: 12px;
+    padding-top: 1.5px;
 }
 
 .container {
@@ -119,14 +120,15 @@ form p {
 }
 
 .bouncing-loader {
-    margin-bottom: 10px;
-    /* height: 30vh;
-    background-color:coral; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 5vh;
+    /* background-color:coral; */ 
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
+
 .bouncing-loader > span {
     width: 0.5rem;
     height: 0.5rem;
