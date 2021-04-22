@@ -56,10 +56,10 @@ main {
 .form-card .password-input,
 .form-card .full-name {
     display: flex;
-    padding: 5px;
+    padding: 8px;
     border: 1px solid #b8c3cf;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 input[type='password'],
@@ -83,7 +83,7 @@ button {
 button.btn-signin {
     background-color: #0275d8;
     height: 35px;
-    color: honeydew;
+    color: #fff;
     width: 100%;
 }
 
@@ -120,8 +120,8 @@ form p {
 }
 
 .bouncing-loader {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-top: 20px;
     height: 5vh;
     /* background-color:coral; */ 
     display: flex;
