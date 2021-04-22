@@ -164,6 +164,12 @@ form p {
 
 }
 
+input:valid:required{
+    border: 1px solid #A09E9E;
+}
+
+
+}
 
 
 
